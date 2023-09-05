@@ -15,18 +15,12 @@ passwords = dotenv_values(".env.passwords")
 keys = dotenv_values(".env.keys")
 
 
+print("API KEY 1: " + keys["KEY1"])
+print("API KEY 2: " + sensitive_info["KEY2"])
 
-def main():
-
-    print("API KEY 1: " + keys["KEY1"])
-    print(" API KEY 2: " + sensitive_info["KEY2"])
-
-    print("PASSWORD 1: " + passwords["PASSWORD1"])
-    print("PASSWORD 2: " + sensitive_info["PASSWORD2"])
+print("PASSWORD 1: " + passwords["PASSWORD1"])
+print("PASSWORD 2: " + sensitive_info["PASSWORD2"])
 
 
 
-
-if __name__ == "__main__":
-    main()
 
